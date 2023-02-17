@@ -1,4 +1,4 @@
-``name: MAT-DC
+name: MAT-DC
 
 on: [push]
 
@@ -47,4 +47,4 @@ jobs:
           BRANCH: Dev # Branche du merge
           FOLDER:  backend-Python # répertoire pour le back
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Build: ({sha}) {msg} passed the tests with success"
+          MESSAGE: "Build: ({sha}) {msg} passed the tests with success
